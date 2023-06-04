@@ -1,0 +1,7 @@
+pandas==2.0.1
+numpy
+scikit-learn
+sqlalchemy==2.0.14
+pymysql
+tensorflow==2.10.0
+
