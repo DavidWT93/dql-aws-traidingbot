@@ -23,12 +23,3 @@ def lambda_handler(event, context):
 
 
 
-if __name__ == '__main__':
-    event = {"symbol":"BTC/USD",
-             "lookBack":"20_min",
-             "timeFrame":"1min",
-             "technicalInd":["VWAP","RSI_2"],
-             "columnsOfInterest":["VWAP","RSI_2","close","time_stamp"],
-             "TableName":"ta8",
-             "createNewTable":"f"}
-    lambda_handler(event,None)
